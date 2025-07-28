@@ -40,17 +40,5 @@ Welcome to our cutting-edge Personalized Medical Recommendation System, a powerf
 
 
 
-\- Privacy and Security
-
-&nbsp; We prioritize your privacy. All health data is handled with confidentiality and complies with top industry standards.
-
-
-
-\- Continuous Improvement 
-
-&nbsp; As more data is gathered, our machine learning models evolve—leading to better, more relevant predictions.
-
-
-
 &nbsp;
 
