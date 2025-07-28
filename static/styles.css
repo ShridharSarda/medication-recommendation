@@ -1,0 +1,247 @@
+styles.css
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bg.jpg'); /* Adjust the path to the image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    background: linear-gradient(90deg, rgb(47 62 100 / 90%), rgba(32, 21, 14, 0.9)); /* Gradient to match background glow */
+    padding: 20px; /* Increased padding for emphasis */
+    position: fixed; /* Fixed at the top */
+    width: calc(100% - 2cm); /* Full width minus margin */
+    top: 40px;
+    left: 20px;
+    z-index: 1000;
+    border-radius: 25px; /* Smooth rounded corners */
+    box-shadow: 0px 8px 20px rgba(0, 51, 102, 0.8); /* Glowing shadow for depth */
+    text-align: center;
+    animation: glowEffect 2s infinite; /* Subtle glowing animation */
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    /* Artistic and bold font */
+    color: #00d4ff; /* Bright blue for text to match the glowing theme */
+    text-shadow: 2px 2px 8px rgba(0, 183, 255, 0.7); /* Intense glow for text */
+    letter-spacing: 1px;
+}
+
+/* Glow Animation */
+@keyframes glowEffect {
+    0%, 100% {
+        box-shadow: 0px 8px 20px rgba(0, 51, 102, 0.8);
+    }
+    50% {
+        box-shadow: 0px 8px 40px rgba(0, 153, 255, 0.8);
+    }
+}
+/* Chat window container */
+#chat-window {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+    
+    border-radius: 8px;
+    background-color: #080f0a00;
+}
+
+/* Chatbot message styling (left-hand side) */
+.chatbot-message {
+    align-self: flex-start;
+    background-color: #e8f5e9;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 12px 12px 12px 0;
+    max-width: 70%;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* User message styling (right-hand side) */
+.user-message {
+    align-self: flex-end;
+    background-color: #bbdefb;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 12px 12px 0 12px;
+    max-width: 70%;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Smooth scrolling for the chat window */
+#chat-window {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+/* Add padding to the input box */
+#user-input {
+    padding: 10px;
+    width: calc(100% - 22px); /* Adjust for border and padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+/* Chatbot Container */
+.chat-container {
+    width: 90%;
+    max-width: 700px;
+    height: 78%;
+    margin-top: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+#chat-window {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-form {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+}
+
+.chat-button {
+    padding: 15px 25px;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.chat-button:hover {
+    background-color: #2563eb;
+}
+
+/* Chat Messages */
+.chatbot-message,
+.user-message {
+    padding: 15px 20px;
+    border-radius: 10px;
+    max-width: 70%;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.chatbot-message {
+    background-color: #3b220ed0;
+    color: white;
+    align-self: flex-start;
+}
+
+.user-message {
+    background-color: #ffcf57c4;
+    color: #000;
+    align-self: flex-end;
+}
+/* Popup Modal */
+.popup-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 80%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.blurred-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 998;
+    display: none;
+}
+
+.close-btn {
+    float: right;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+}
+}
+.disease-link {
+    color: rgb(167, 167, 240); /* Change to your desired color */
+    text-decoration: underline; /* Makes it look like a link */
+    cursor: pointer; /* Shows a pointer on hover */
+}
+
+.disease-link:hover {
+    color: darkblue; /* Change color on hover */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    margin: 5px 0; /* Space between list items */
+}
+
+ul li a {
+    display: block; /* Make the link fill the list item */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+ul li a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}

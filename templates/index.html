@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Diagnosis Chatbot</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Swasthyaseva</h1>
+    </nav>
+
+    <!-- Chatbot Interface -->
+    <div class="chat-container">
+        <div class="chatbot-message">
+            Hi! Hope you're good. Please enter your symptoms to find the disease and precautions for it.
+        </div>
+        <div id="chat-window"></div>
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="user-input" placeholder="Enter your symptoms here..." class="chat-input">
+            <button type="submit" class="chat-button">Send</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('chat-form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+        
+            const userInput = document.getElementById('user-input').value.trim();
+            if (!userInput) return;
+        
+            const chatWindow = document.getElementById('chat-window');
+            // Add user's message to the chat window
+            chatWindow.innerHTML += `<div class="user-message">${userInput}</div>`;
+            document.getElementById('user-input').value = '';
+        
+            // Display 'thinking...' while waiting for a response
+            const thinkingMessage = document.createElement('div');
+            thinkingMessage.classList.add('chatbot-message');
+            thinkingMessage.textContent = 'Thinking...';
+            chatWindow.appendChild(thinkingMessage);
+        
+            try {
+                // Send request to Flask
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: userInput })
+                });
+        
+                const data = await response.json();
+                chatWindow.removeChild(thinkingMessage); // Remove 'thinking...' message
+        
+                // Add chatbot's response to the chat window
+                const diseases = data.response.split(", "); // Assuming the response is a comma-separated string
+                diseases.forEach(disease => {
+                    chatWindow.innerHTML += `<div class="chatbot-message">${disease}</div>`;
+                });
+                
+            } catch (error) {
+                chatWindow.removeChild(thinkingMessage);
+                chatWindow.innerHTML += `<div class="chatbot-message error">Error: Unable to fetch response.</div>`;
+                console.error('Fetch error:', error);
+            }
+        });
+    </script>
+</body>
+</html>

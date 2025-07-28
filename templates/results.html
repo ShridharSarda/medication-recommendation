@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Information</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Swasthyaseva</h1>
+    </nav>
+
+    <div class="results-container">
+        {% for disease in disease_info %}
+        <div class="disease-block">
+            <h2>{{ disease.disease }}</h2>
+        </div>
+        <div class="info-container">
+            <div class="info-block description-block">
+                <h3>Description</h3>
+                <p>{{ disease.description }}</p>
+            </div>
+            <div class="info-block precautions-block">
+                <h3>Precautions</h3>
+                <ul>
+                    {% for precaution in disease.precautions %}
+                    <li>{{ precaution }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="info-block medication-block">
+                <h3>Medications</h3>
+                <ul>
+                    {% for medication in disease.medications %}
+                    <li>{{ medication }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="info-block workout-block">
+                <h3>Workout</h3>
+                <p>{{ disease.workout }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('../static/images/bg.jpg');
+            color: #333;
+            
+        }
+        .navbar {
+    background: linear-gradient(90deg, rgb(47 62 100 / 90%), rgba(32, 21, 14, 0.9)); /* Gradient to match background glow */
+    padding: 20px; /* Increased padding for emphasis */
+    margin-top: 40px;
+    margin-bottom: 40px;
+     /* Fixed at the top */
+    width: calc(100% - 2cm); /* Full width minus margin */
+    top: 40px;
+    left: 20px;
+    z-index: 1000;
+    border-radius: 25px; /* Smooth rounded corners */
+    box-shadow: 0px 8px 20px rgba(0, 51, 102, 0.8); /* Glowing shadow for depth */
+    text-align: center;
+    animation: glowEffect 2s infinite; /* Subtle glowing animation */
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    /* Artistic and bold font */
+    color: #00d4ff; /* Bright blue for text to match the glowing theme */
+    text-shadow: 2px 2px 8px rgba(0, 183, 255, 0.7); /* Intense glow for text */
+    letter-spacing: 1px;
+}
+
+/* Glow Animation */
+@keyframes glowEffect {
+    0%, 100% {
+        box-shadow: 0px 8px 20px rgba(0, 51, 102, 0.8);
+    }
+    50% {
+        box-shadow: 0px 8px 40px rgba(0, 153, 255, 0.8);
+    }
+}
+        .results-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .disease-block {
+            background-color: #4caf4f60;
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            width: 50%;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .info-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            flex-wrap: wrap;
+        }
+        .info-block {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 25px;
+            font-size: large;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            flex-basis: 45%;
+            max-width: 45%;
+        }
+        .description-block {
+            background-color: #f9e79ff1; /* Light Yellow */
+        }
+        .precautions-block {
+            background-color: #f1948a; /* Light Red */
+        }
+        .medication-block {
+            background-color: #85c1ae; /* Light Green */
+        }
+        .workout-block {
+            background-color: #a2d9ce; /* Light Cyan */
+        }
+        h3 {
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</body>
+</html>

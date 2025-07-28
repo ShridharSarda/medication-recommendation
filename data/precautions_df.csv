@@ -1,0 +1,128 @@
+,Disease,Precaution_1,Precaution_2,Precaution_3,Precaution_4
+0,Drug Reaction,stop irritation,consult nearest hospital,stop taking drug,follow up
+1,Malaria,Consult nearest hospital,avoid oily food,avoid non veg food,keep mosquitos out
+2,Allergy,apply calamine,cover area with bandage,,use ice to compress itching
+3,Hypothyroidism,reduce stress,exercise,eat healthy,get proper sleep
+4,Psoriasis,wash hands with warm soapy water,stop bleeding using pressure,consult doctor,salt baths
+5,GERD,avoid fatty spicy food,avoid lying down after eating,maintain healthy weight,exercise
+6,Chronic cholestasis,cold baths,anti itch medicine,consult doctor,eat healthy
+7,hepatitis A,Consult nearest hospital,wash hands through,avoid fatty spicy food,medication
+8,Osteoarthristis,acetaminophen,consult nearest hospital,follow up,salt baths
+9,(vertigo) Paroymsal  Positional Vertigo,lie down,avoid sudden change in body,avoid abrupt head movment,relax
+10,Hypoglycemia,lie down on side,check in pulse,drink sugary drinks,consult doctor
+11,Acne,bath twice,avoid fatty spicy food,drink plenty of water,avoid too many products
+12,Diabetes ,have balanced diet,exercise,consult doctor,follow up
+13,Impetigo,soak affected area in warm water,use antibiotics,remove scabs with wet compressed cloth,consult doctor
+14,Hypertension ,meditation,salt baths,reduce stress,get proper sleep
+15,Peptic ulcer diseae,avoid fatty spicy food,consume probiotic food,eliminate milk,limit alcohol
+16,Dimorphic hemmorhoids(piles),avoid fatty spicy food,consume witch hazel,warm bath with epsom salt,consume alovera juice
+17,Common Cold,drink vitamin c rich drinks,take vapour,avoid cold food,keep fever in check
+18,Chicken pox,use neem in bathing ,consume neem leaves,take vaccine,avoid public places
+19,Cervical spondylosis,use heating pad or cold pack,exercise,take otc pain reliver,consult doctor
+20,Hyperthyroidism,eat healthy,massage,use lemon balm,take radioactive iodine treatment
+21,Urinary tract infection,drink plenty of water,increase vitamin c intake,drink cranberry juice,take probiotics
+22,Varicose veins,lie down flat and raise the leg high,use oinments,use vein compression,dont stand still for long
+23,AIDS,avoid open cuts,wear ppe if possible,consult doctor,follow up
+24,Paralysis (brain hemorrhage),massage,eat healthy,exercise,consult doctor
+25,Typhoid,eat high calorie vegitables,antiboitic therapy,consult doctor,medication
+26,Hepatitis B,consult nearest hospital,vaccination,eat healthy,medication
+27,Fungal infection,bath twice,use detol or neem in bathing water,keep infected area dry,use clean cloths
+28,Hepatitis C,Consult nearest hospital,vaccination,eat healthy,medication
+29,Migraine,meditation,reduce stress,use poloroid glasses in sun,consult doctor
+30,Bronchial Asthma,switch to loose cloothing,take deep breaths,get away from trigger,seek help
+31,Alcoholic hepatitis,stop alcohol consumption,consult doctor,medication,follow up
+32,Jaundice,drink plenty of water,consume milk thistle,eat fruits and high fiberous food,medication
+33,Hepatitis E,stop alcohol consumption,rest,consult doctor,medication
+34,Dengue,drink papaya leaf juice,avoid fatty spicy food,keep mosquitos away,keep hydrated
+35,Hepatitis D,consult doctor,medication,eat healthy,follow up
+36,Heart attack,call ambulance,chew or swallow asprin,keep calm,
+37,Pneumonia,consult doctor,medication,rest,follow up
+38,Arthritis,exercise,use hot and cold therapy,try acupuncture,massage
+39,Gastroenteritis,stop eating solid food for while,try taking small sips of water,rest,ease back into eating
+40,Tuberculosis,cover mouth,consult doctor,medication,rest
+41,Sinusitis,Use steam inhalation,Drink warm fluids,Rest and avoid exertion,Consult doctor
+42,Bronchitis,Rest and avoid irritants,Stay hydrated,Use a humidifier,Consult doctor
+43,Anemia,Consume iron-rich foods,Take prescribed supplements,Avoid caffeine during meals,Consult doctor
+44,Otitis Media,Use warm compress,Take prescribed medication,Keep ears dry,Consult doctor
+45,Tonsillitis,Drink warm fluids,Avoid cold foods,Use throat lozenges,Consult doctor
+46,Conjunctivitis,Wash hands regularly,Avoid touching eyes,Use prescribed eye drops,Consult doctor
+47,Cholecystitis,Follow a low-fat diet,Stay hydrated,Rest and avoid exertion,Consult doctor
+48,Asthma,Use inhaler as prescribed,Avoid triggers,Stay calm,Seek medical help if severe
+49,Gout,Avoid foods high in purines,Stay hydrated,Use prescribed medications,Consult doctor
+50,Lupus,Protect skin from sun,Get enough rest,Stay physically active,Consult doctor
+51,Eczema,Keep skin moisturized,Avoid triggers,Use prescribed ointments,Consult doctor
+52,Chronic Fatigue Syndrome,Get regular sleep,Stay hydrated,Pace your activities,Consult doctor
+53,Chronic Obstructive Pulmonary Disease (COPD),Quit smoking,Avoid air pollutants,Use prescribed inhalers,Consult doctor
+54,Tuberculosis,Complete full course of medication,Avoid crowded places,Cover mouth while coughing,Consult doctor
+55,Appendicitis,Avoid eating before surgery,Take prescribed pain relievers,Rest,Consult doctor
+56,Diverticulitis,Follow a high-fiber diet,Avoid seeds and nuts,Stay hydrated,Consult doctor
+57,Acute Pancreatitis,Avoid alcohol,Follow a low-fat diet,Stay hydrated,Consult doctor
+58,Chronic Kidney Disease,Limit salt intake,Stay hydrated,Take prescribed medications,Consult doctor
+59,Celiac Disease,Follow a gluten-free diet,Take supplements,Stay hydrated,Consult doctor
+60,Irritable Bowel Syndrome,Follow a low-FODMAP diet,Avoid trigger foods,Stay active,Consult doctor
+61,Lyme Disease,Take antibiotics as prescribed,Protect against ticks,Stay hydrated,Consult doctor
+62,Parkinson's Disease,Exercise regularly,Follow a balanced diet,Use walking aids if needed,Consult doctor
+63,Bipolar Disorder,Take medications as prescribed,Maintain a routine,Avoid alcohol and drugs,Consult doctor
+64,Epilepsy,Take antiepileptic medications,Avoid triggers,Get enough sleep,Consult doctor
+65,Multiple Sclerosis,Stay physically active,Manage stress,Stay cool,Consult doctor
+66,Alzheimer's Disease,Engage in mental activities,Follow a healthy diet,Stay physically active,Consult doctor
+67,Cataract,Wear sunglasses to reduce glare,Avoid smoking,Follow a healthy diet,Consult doctor
+68,Glaucoma,Take prescribed eye drops regularly,Avoid straining your eyes,Wear protective eyewear,Consult doctor
+69,Psoriatic Arthritis,Keep skin moisturized,Use prescribed medications,Stay active,Consult doctor
+70,Rheumatoid Arthritis,Stay physically active,Use hot and cold packs,Take prescribed medications,Consult doctor
+71,Herpes Simplex,Avoid contact with infected area,Use antiviral medication,Keep the area clean,Consult doctor
+72,Mumps,Isolate yourself from others,Stay hydrated,Use cold compress for swelling,Consult doctor
+73,Scarlet Fever,Avoid sharing utensils and towels,Stay hydrated,Rest,Consult doctor
+74,Leukemia,Follow a healthy diet,Avoid infections,Stay hydrated,Consult doctor
+75,Melanoma,Use sunscreen,Protect skin from sun,Check skin regularly,Consult doctor
+76,Acromegaly,Follow prescribed hormone therapy,Monitor blood sugar levels,Get regular check-ups,Consult doctor
+77,Addison's Disease,Carry emergency medication,Increase salt intake during stress,Avoid extreme temperatures,Consult doctor
+78,Allergic Rhinitis,Use air purifiers,Avoid known allergens,Use nasal sprays as prescribed,Consult doctor
+79,Cluster Headache,Avoid alcohol and smoking,Use prescribed medications,Stay in a dark room,Consult doctor
+80,Dystonia,Use muscle relaxants as prescribed,Follow physical therapy exercises,Avoid triggers,Consult doctor
+81,Emphysema,Quit smoking,Use inhalers as prescribed,Stay physically active,Consult doctor
+82,Gallstones,Follow a low-fat diet,Stay active,Avoid rapid weight loss,Consult doctor
+83,Guillain-Barre Syndrome,Get physical therapy,Stay hydrated,Avoid infections,Consult doctor
+84,Hodgkin's Lymphoma,Follow a healthy diet,Stay active,Rest when needed,Consult doctor
+85,Pancreatic Cancer,Follow prescribed treatments,Stay hydrated,Eat small frequent meals,Consult doctor
+86,Polycystic Ovary Syndrome (PCOS),Follow a balanced diet,Exercise regularly,Monitor blood sugar levels,Consult doctor
+87,Sciatica,Use hot and cold packs,Stay active,Avoid prolonged sitting,Consult doctor
+88,Raynaud's Disease,Keep warm,Avoid cold exposure,Manage stress,Consult doctor
+89,Cushing's Syndrome,Follow prescribed treatments,Monitor blood pressure,Limit salt intake,Consult doctor
+90,Fibromyalgia,Stay physically active,Use pain relief methods,Get enough sleep,Consult doctor
+91,Sleep Apnea,Maintain a healthy weight,Avoid alcohol,Use CPAP machine,Consult doctor
+92,Hyperparathyroidism,Monitor calcium levels,Avoid calcium supplements,Stay hydrated,Consult doctor
+93,Thalassemia,Follow prescribed treatments,Get regular blood transfusions,Avoid infections,Consult doctor
+94,Chronic Sinusitis,Use steam inhalation,Stay hydrated,Use saline nasal spray,Consult doctor
+95,Raynaud's Disease,Keep hands and feet warm,Avoid stress,Don't smoke,Consult doctor
+96,Cushing's Syndrome,Limit salt intake,Manage stress levels,Maintain a healthy weight,Consult doctor
+97,Fibromyalgia,Get enough sleep,Practice gentle stretching,Use heat packs,Consult doctor
+98,Sleep Apnea,Maintain a healthy weight,Avoid alcohol,Use a CPAP machine,Consult doctor
+99,Hyperparathyroidism,Stay hydrated,Limit calcium intake,Regular blood tests,Consult doctor
+100,Nephrotic Syndrome,Limit salt intake,Monitor blood pressure,Stay hydrated,Consult doctor
+101,Polycystic Ovary Syndrome (PCOS),Maintain a healthy weight,Exercise regularly,Limit sugar intake,Consult doctor
+102,Ankylosing Spondylitis,Practice good posture,Engage in low-impact exercise,Use heat packs,Consult doctor
+103,Multiple Sclerosis,Manage stress,Exercise regularly,Stay cool,Consult doctor
+104,Sjögren's Syndrome,Use artificial tears,Avoid dry environments,Stay hydrated,Consult doctor
+105,Temporal Arteritis,Follow prescribed treatments,Manage stress,Monitor vision changes,Consult doctor
+106,Wegener's Granulomatosis,Follow prescribed treatments,Avoid infections,Stay hydrated,Consult doctor
+107,Trigeminal Neuralgia,Avoid triggers,Use a soft toothbrush,Manage stress,Consult doctor
+108,Mitral Valve Prolapse,Limit caffeine intake,Monitor heart rate,Maintain a healthy weight,Consult doctor
+109,Pulmonary Hypertension,Limit sodium intake,Avoid high altitudes,Exercise as tolerated,Consult doctor
+110,Carpal Tunnel Syndrome,Take breaks from repetitive tasks,Use wrist splints,Practice hand exercises,Consult doctor
+111,Addison's Disease,Carry emergency steroids,Monitor stress levels,Stay hydrated,Consult doctor
+112,Chronic Fatigue Syndrome,Practice good sleep hygiene,Manage stress,Gradually increase activity,Consult doctor
+113,Bell's Palsy,Protect the eye,Do facial exercises,Manage stress,Consult doctor
+114,Guillain-Barré Syndrome,Follow physical therapy,Stay hydrated,Use assistive devices,Consult doctor
+115,Wilson's Disease,Limit copper intake,Follow prescribed treatments,Stay hydrated,Consult doctor
+116,Myasthenia Gravis,Avoid overexertion,Manage stress,Follow prescribed treatments,Consult doctor
+117,Thyroid Eye Disease,Use artificial tears,Protect eyes from wind,Elevate head while sleeping,Consult doctor
+118,Restless Legs Syndrome,Practice good sleep hygiene,Exercise regularly,Limit caffeine,Consult doctor
+119,Cluster Headache,Avoid alcohol,Maintain a regular sleep schedule,Practice relaxation techniques,Consult doctor
+120,Peripheral Neuropathy,Manage blood sugar levels,Exercise regularly,Avoid tight shoes,Consult doctor
+121,Kawasaki Disease,Monitor fever,Stay hydrated,Follow prescribed treatments,Consult doctor
+122,Whipple's Disease,Follow long-term antibiotics,Maintain a nutritious diet,Monitor symptoms,Consult doctor
+123,Sickle Cell Anemia,Stay hydrated,Avoid high altitudes,Follow prescribed treatments,Consult doctor
+124,Acromegaly,Monitor blood sugar levels,Manage joint pain,Regularly check growth hormone levels,Consult doctor
+125,Hemochromatosis,Limit iron intake,Avoid vitamin C supplements,Stay hydrated,Consult doctor
+126,Marfan Syndrome,Avoid intense physical activities,Monitor blood pressure,Get regular eye exams,Consult doctor
